@@ -14,7 +14,7 @@ const StarList = () => {
     }, []); 
     console.log(starData);
     return  (
-        <div className="Star">
+        <>
             {starData.map(star => {
                 return (
                     console.log(star.name + star.height + "starData from StarList"),
@@ -22,7 +22,7 @@ const StarList = () => {
                     />
                 )
             })}
-        </div>)
+        </>)
 }
 
 export default StarList;
